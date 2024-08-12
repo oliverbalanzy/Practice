@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(91, 127, 159) !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    letter-spacing:4px;
+}
+
+.navbar-nav {
+    gap: 10px;
+}
+
+h1, h2 {
+    color: white;
+    font-family:sofia;
+    letter-spacing: 2px;
+}
+
+h4, p {
+    color: rgb(202, 202, 202);
+}
+
+.header-text {
+    height: 3px;
+    position: absolute;
+    top: 80%;
+    left: 1%;
+    color: ivory;
+}
+
+.table-foods {
+    width: 640px;
+    height: 800px;
+    object-fit: cover;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.img-float {
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.img-float:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+footer p {
+    color: black;
+}

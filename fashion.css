@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(209, 209, 184);
+}
+img{
+    width: 43rem;
+    height: 55rem;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.shop-name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px 0px;
+    color:rgb(44, 44, 29);
+}
+nav{
+    width:100%;
+    padding: 10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: blanchedalmond;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+
+}
+.home-page{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000A6;
+    
+}
+.about-page{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000A6;
+
+}
+.sign-up{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000A6;
+}
+
+.content {
+    position: relative; 
+}
+
+.content img {
+    float: left; 
+    margin-right: 20px;
+}
+
+.content-text {
+    text-align: left; 
+    margin-top: 20px;
+}
+
+.content-text h1 {
+    font-size: 6rem;
+    color: #333; 
+    margin-bottom: 10px;
+}
+
+.content-text h3 {
+    font-size: 2.5rem;
+    color: #555; 
+    margin-bottom: 20px;
+}
+
+.content-text label {
+    display: block;
+    font-size: 1.2rem;
+    color: #666; 
+    margin-top: 10px;
+}
+
+.content-text input[type="text"],
+.content-text input[type="password"] {
+    width: 27rem; 
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc; 
+    border-radius: 14px;
+}
+
+/* olive Clear float to ensure content below floats properly */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.content-text input[type="submit"] {
+    width: 8rem;
+    padding: 15px;
+    border-radius: 12px;
+   background-color: palevioletred;
+   border: none;
+   cursor: pointer;
+ 
+}
+
+.slider-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    animation: slide 3s linear infinite; /* Adjust timing as needed */
+    
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(20%); /* Adjust distance to slide */
+    }
+}
+
+.calling{
+    transition: transform 0.7s ease-in-out;
+}
+
+
+.calling:hover {
+    transform: scale(1.1);
+}
+.content-text input[type="submit"]:hover{
+    transform: scale(1.1) ;
+    transition: 0.7s;
+    color: aliceblue;
+}
+.signing-up{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer {
+    text-align: center;
+    background-color: rgb(20, 24, 57);
+    padding: 10px 20px;
+    font-size: 20px;
+}
+footer p {
+    color: rgb(55, 51, 51);
+}
+h1, h2 {
+    font-family:sofia;
+    letter-spacing: 2px;
+}
